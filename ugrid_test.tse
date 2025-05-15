@@ -1,0 +1,404 @@
+version = 4.2
+
+//
+// Saved by sw version: 2024.4 SP1
+//
+
+model "ugrid_test" {
+    configuration {
+        hil_device = "HIL604"
+        hil_configuration_id = 2
+        simulation_method = exact
+        simulation_time_step = auto
+        simulation_discret_scaling = 1.0
+        dsp_timer_periods = 100e-6, 50e-3
+        ss_calc_method = "systematic elimination"
+        enb_pole_shift = True
+        enb_gds_oversampling = True
+        show_modes = False
+        device_ao_limit_enable = False
+        reset_analog_outputs_on_sim_stop = True
+        reset_analog_outputs_on_sim_stop_mode = Offset values
+        reset_digital_outputs_on_sim_stop = True
+        vhil_adio_loopback = False
+        cpl_stb = False
+        enb_dep_sw_detect = False
+        code_section = "internal memory"
+        data_section = "internal memory"
+        sys_sp_rate_1 = 0.0001
+        sys_sp_rate_2 = 0.05
+        sys_real_type_precision = "default"
+        user_real_type_precision = "default"
+        sys_cpu_optimization = "high"
+        user_cpu_optimization = "high"
+        user_cpu_part_option = "default"
+        matrix_based_reduction = True
+        cpl_dynamics_analysis = False
+        export_ss_to_pickle = False
+        ground_scope_core = False
+        dss_num_tol = 1e-15
+        cce_platform = "generic"
+        cce_use_relative_names = False
+        cce_type_mapping_real = "double"
+        cce_type_mapping_uint = "unsigned int"
+        cce_type_mapping_int = "int"
+        cce_platform = "generic"
+        cce_use_relative_names = False
+        cce_type_mapping_real = "double"
+        cce_type_mapping_uint = "unsigned int"
+        cce_type_mapping_int = "int"
+        cce_directory = ""
+        cce_custom_type_int = ""
+        cce_custom_type_uint = ""
+        cce_custom_type_real = ""
+        tunable_params = "component defined"
+        sp_compiler_type = "C compiler"
+        sig_stim = "off"
+        export_resource_list = ""
+        export_dependency_list = ""
+        excluded_resource_list = ""
+        excluded_component_from_locking_list = ""
+        export_out_file = ""
+        export_lock_top_level = True
+        export_encrypt_library = True
+        export_encrypt_resources = True
+        solver_type = "DAE"
+        integration_method = "BDF"
+        max_sim_step = 1e-4
+        simulation_time = 1.0
+        abs_tol = 1e-3
+        rel_tol = 1e-3
+        init_sim_step = 1e-6
+        r_on_sw = 1e-3
+        v_on_diode = 0.2
+        data_sampling_rate = 0
+        feedthrough_validation_error_level = warning
+    }
+
+    component Subsystem Root {
+        component "core/Grid" Grid1 {
+            Sb = "S3phsc"
+            Vb = "Vprim"
+            f = "f"
+            pf = "ind_pf"
+            resistance_cont = "10.0"
+        }
+        [
+            position = 8304, 8048
+            rotation = down
+            size = 144, 136
+        ]
+
+        component "core/Battery ESS (Generic)" "Battery ESS (Generic)1" {
+            PFg = "ind_pf"
+            Pnom = "Pess"
+            Snom = "Sess"
+            Vnom_LL = "Vsec"
+            Vnom_sec_LL = "Vprim"
+            fnom = "f"
+            nom_batt_capacity = "Batt_cap"
+            nom_batt_voltage = "Vbatt"
+        }
+        [
+            position = 8736, 8416
+            size = 144, 136
+        ]
+
+        component "core/PV Power Plant (Generic)" "PV Power Plant (Generic)1" {
+            PFg = "ind_pf"
+            Pnom = "Ppv"
+            Snom = "Spv"
+            Vnom_LL = "Vsec"
+            Vnom_sec_LL = "Vprim"
+            fnom = "f"
+        }
+        [
+            position = 7640, 8416
+            scale = -1, 1
+            size = 144, 136
+        ]
+
+        component "core/PV Power Plant (Generic) UI" "PV Power Plant (Generic) UI1" {
+        }
+        [
+            position = 7868, 8416
+            scale = -1, 1
+            size = 56, 136
+        ]
+
+        component "core/Variable Load (Generic)" "Variable Load (Generic)1" {
+            PFg = "ind_pf"
+            Pnom = "Pload"
+            Snom = "Sload"
+            Vnom_LL = "Vsec"
+            Vnom_sec_LL = "Vprim"
+            fnom = "f"
+            include_transformer = "True"
+            resistance_cont = "1.0"
+        }
+        [
+            position = 8304, 8420
+            size = 144, 136
+        ]
+
+        component "core/Variable Load (Generic) UI" "Variable Load (Generic) UI1" {
+        }
+        [
+            position = 8096, 8420
+            size = 56, 136
+        ]
+
+        component "core/Battery ESS (Generic) UI" "Battery ESS (Generic) UI1" {
+        }
+        [
+            position = 8520, 8416
+            size = 56, 136
+        ]
+
+        component "core/Grid UI" "Grid UI1" {
+        }
+        [
+            position = 8168, 8048
+            rotation = down
+            scale = -1, 1
+            size = 56, 136
+        ]
+
+        junction Junction4 pe
+        [
+            position = 8352, 8240
+        ]
+
+        junction Junction9 pe
+        [
+            position = 8256, 8312
+        ]
+
+        junction Junction10 pe
+        [
+            position = 8288, 8288
+        ]
+
+        junction Junction11 pe
+        [
+            position = 8320, 8264
+        ]
+
+        junction Junction12 pe
+        [
+            position = 8256, 8312
+        ]
+
+        junction Junction13 pe
+        [
+            position = 8288, 8288
+        ]
+
+        junction Junction14 pe
+        [
+            position = 8320, 8264
+        ]
+
+        junction Junction15 pe
+        [
+            position = 8352, 8240
+        ]
+
+        connect "PV Power Plant (Generic) UI1.ui_in" "PV Power Plant (Generic)1.ui_in" as Connection26
+        connect "PV Power Plant (Generic)1.ui_out" "PV Power Plant (Generic) UI1.ui_out" as Connection27
+        connect "PV Power Plant (Generic) UI1.ext" "PV Power Plant (Generic)1.ext_inputs" as Connection28
+        connect "Variable Load (Generic) UI1.ui_in" "Variable Load (Generic)1.Out1" as Connection41
+        connect "Variable Load (Generic)1.ext" "Variable Load (Generic) UI1.ext" as Connection60
+        connect "Variable Load (Generic)1.In2" "Variable Load (Generic) UI1.ui_out" as Connection61
+        connect "Variable Load (Generic)1.N" Junction4 as Connection79
+        connect Junction4 Grid1.N as Connection119
+        [
+            breakpoints = 8352, 8240; 8352, 8232; 8352, 8232; 8352, 8232; 8352, 8128
+        ]
+        connect Junction9 "Variable Load (Generic)1.A" as Connection123
+        [
+            breakpoints = 8256, 8320; 8256, 8320
+        ]
+        connect Grid1.A Junction9 as Connection124
+        connect Junction10 "Variable Load (Generic)1.B" as Connection126
+        [
+            breakpoints = 8288, 8288; 8288, 8288
+        ]
+        connect Grid1.B Junction10 as Connection127
+        connect "Variable Load (Generic)1.C" Junction11 as Connection128
+        connect Grid1.C Junction11 as Connection130
+        connect "Battery ESS (Generic) UI1.ui_in" "Battery ESS (Generic)1.ui_in" as Connection131
+        connect "Battery ESS (Generic)1.ui_out" "Battery ESS (Generic) UI1.ui_out" as Connection132
+        connect "Battery ESS (Generic) UI1.ext" "Battery ESS (Generic)1.ext_inputs" as Connection133
+        connect "Grid UI1.ui_in" Grid1.ui_in as Connection134
+        connect Grid1.ui_out "Grid UI1.ui_out" as Connection135
+        connect "Battery ESS (Generic)1.A" Junction12 as Connection140
+        connect Junction12 Junction9 as Connection141
+        [
+            breakpoints = 8256, 8304
+        ]
+        connect "PV Power Plant (Generic)1.A" Junction12 as Connection142
+        connect "Battery ESS (Generic)1.B" Junction13 as Connection143
+        connect Junction13 Junction10 as Connection144
+        [
+            breakpoints = 8288, 8288
+        ]
+        connect "PV Power Plant (Generic)1.B" Junction13 as Connection145
+        connect Junction11 Junction14 as Connection146
+        connect Junction14 "Battery ESS (Generic)1.C" as Connection147
+        [
+            breakpoints = 8320, 8264; 8320, 8264; 8320, 8264
+        ]
+        connect "PV Power Plant (Generic)1.C" Junction14 as Connection148
+        connect Junction4 Junction15 as Connection149
+        connect Junction15 "Battery ESS (Generic)1.N" as Connection150
+        [
+            breakpoints = 8352, 8240; 8352, 8240
+        ]
+        connect "PV Power Plant (Generic)1.N" Junction15 as Connection151
+    }
+
+    default {
+        "core/Battery ESS (Generic)" {
+            Pnom = "20e3"
+            Snom = "40e3"
+            Vnom_LL = "400"
+            fnom = "50"
+            include_transformer = "True"
+            Vnom_sec_LL = "2300"
+            wL_pu = "0.1"
+            Zt_pu = "0.04"
+            dc_link_margin = "0.4"
+            opc_pu = "0.0"
+            Rshunt_pu = "2000"
+            Tfast = "100e-6"
+            Tslow = "500e-6"
+            Sg_sc_pu = "20"
+            PFg = "0.1"
+            cont_type = "Ideal"
+            resistance_cont = "1.0"
+            nom_batt_voltage = "200"
+            nom_batt_capacity = "120"
+            soc_range = "[10, 90]"
+            grid_code_fcn = "LVRT"
+            lvrt_req = "Germany"
+            vs_lvrt = "[0.0, 0.9, 0.901]"
+            ts_lvrt = "[0.15, 1.5, 1.501]"
+            preview = "Plot LVRT curve"
+            voltvar_req = "Custom"
+            vs_voltvar = "[0.6, 0.9, 1.1, 1.3]"
+            qs_voltvar = "[1.3, 0.0, 0.0, -0.7]"
+            preview_voltvar = "Plot VoltVAr curve"
+            hzwatt_req = "Custom"
+            fs_hzwatt = "[47.5, 47.8, 49.8, 50.2, 51.5]"
+            ps_hzwatt = "[2.0, 2.0, 0.0, 0.0, -0.52]"
+            preview_hzwatt = "Plot HzWatt curve"
+            voltwatt_req = "Custom"
+            vs_voltwatt = "[0.8, 1.06, 1.1, 1.3]"
+            ps_voltwatt = "[1.0, 1.0, 0.2, 0.2]"
+            preview_voltwatt = "Plot VoltWatt curve"
+        }
+
+        "core/Grid" {
+            Vb = "2300"
+            f = "50"
+            Sb = "20*40e3"
+            pf = "0.1"
+            Tfast = "100e-6"
+            cont_type = "Ideal"
+            resistance_cont = "0"
+        }
+
+        "core/PV Power Plant (Generic)" {
+            Pnom = "250e3"
+            Snom = "np.sqrt(2.0)*250e3"
+            Vnom_LL = "400"
+            fnom = "50"
+            include_transformer = "True"
+            Vnom_sec_LL = "13.8e3"
+            ILR_factor = "1.2"
+            wL_pu = "0.1"
+            Zt_pu = "0.04"
+            dc_link_margin = "0.4"
+            opc_pu = "0.0"
+            Rshunt_pu = "2000"
+            Tfast = "100e-6"
+            Tslow = "500e-6"
+            Sg_sc_pu = "20"
+            PFg = "0.1"
+            cont_type = "Ideal"
+            resistance_cont = "1.0"
+            grid_code_fcn = "LVRT"
+            lvrt_req = "Germany"
+            vs_lvrt = "[0.0, 0.9, 0.901]"
+            ts_lvrt = "[0.15, 1.5, 1.501]"
+            preview = "Plot LVRT curve"
+            voltvar_req = "Custom"
+            vs_voltvar = "[0.6, 0.9, 1.1, 1.3]"
+            qs_voltvar = "[1.3, 0.0, 0.0, -0.7]"
+            preview_voltvar = "Plot VoltVAr curve"
+            hzwatt_req = "Custom"
+            fs_hzwatt = "[47.5, 47.8, 49.8, 50.2, 51.5]"
+            ps_hzwatt = "[2.0, 2.0, 0.0, 0.0, -0.52]"
+            preview_hzwatt = "Plot HzWatt curve"
+            voltwatt_req = "Custom"
+            vs_voltwatt = "[0.8, 1.06, 1.1, 1.3]"
+            ps_voltwatt = "[1.0, 1.0, 0.2, 0.2]"
+            preview_voltwatt = "Plot VoltWatt curve"
+        }
+
+        "core/Variable Load (Generic)" {
+            Pnom = "10e3"
+            Snom = "np.sqrt(2)*10e3"
+            Vnom_LL = "400"
+            fnom = "50"
+            include_transformer = "False"
+            Vnom_sec_LL = "400"
+            wL_pu = "0.1"
+            Zt_pu = "0.04"
+            dc_link_margin = "0.4"
+            opc_pu = "0.2"
+            Rshunt_pu = "2000"
+            Sg_sc_pu = "20"
+            PFg = "0.1"
+            cont_type = "Ideal"
+            resistance_cont = "0"
+            Tfast = "100e-6"
+            Tslow = "500e-6"
+        }
+    }
+
+    CODE model_init
+        # Numpy module is imported as 'np'
+        # Scipy module is imported as 'sp'
+        # The Schematic API is imported as 'mdl'
+        # To get the model file path, use 'mdl.get_model_file_path()'
+        # To print information to the console, use info()
+        
+        Vprim = 2.4e3 #V
+        Vsec = 0.4e3 #V
+        f = 50 #Hz
+        
+        # configuration of Grid
+        S3phsc = 100e6 #VA
+        xr_ratio = 10
+        ind_pf = 1/(np.sqrt(1+xr_ratio**2))
+        
+        # configuration of PV
+        Spv = 500e3 #VA
+        cosfipv = 0.9
+        Ppv = Spv*cosfipv
+        
+        # configuration of ESS
+        Sess = 600e3 #VA
+        cosfiess = 0.95
+        Pess = Sess*cosfiess
+        Vbatt = 1000 #V
+        Batt_cap = 120 #Ah 
+        
+        # configuration of Load
+        Sload = 500e3 #VA
+        cosfil = 0.9
+        Pload = Sload*cosfil
+    ENDCODE
+}

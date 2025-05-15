@@ -1,0 +1,4134 @@
+
+<model_description>
+    <sw_version>2024.4 SP1</sw_version>
+    <hw_properties>
+        <revision>3</revision>
+        <product_id>HIL604</product_id>
+        <configuration_id>2</configuration_id>
+        <device_ao_limit_enable>False</device_ao_limit_enable>
+        <device_id>0</device_id>
+        <spc_out_mem_size>512</spc_out_mem_size>
+        <fw_support_limit>132647445</fw_support_limit>
+        <vhil_adio_loopback>False</vhil_adio_loopback>
+    </hw_properties>
+    <sim_setup>
+        <sim_time_step>2e-06</sim_time_step>
+    </sim_setup>
+    <pesb>
+    </pesb>
+    <analog_variables>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb1.Cf_Va</name>
+            <address>3</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic.Lf_Ia</name>
+            <address>43</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va1.Cf_Va</name>
+            <address>1</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic1.Lf_Ia</name>
+            <address>26</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc1.Cf_Va</name>
+            <address>5</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va.Cf_Va</name>
+            <address>9</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.L1</name>
+            <address>27</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia1.Lf_Ia</name>
+            <address>52</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.L3</name>
+            <address>47</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.L2</name>
+            <address>37</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va1.Cf_Va</name>
+            <address>10</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc.Cf_Va</name>
+            <address>4</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Tr1.Tr3.L2</name>
+            <address>62</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va.Cf_Va</name>
+            <address>15</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib1.Lf_Ia</name>
+            <address>54</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib.Lf_Ia</name>
+            <address>23</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va1.Cf_Va</name>
+            <address>16</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.L3</name>
+            <address>59</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.L3</name>
+            <address>38</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vc.Cf_Va</name>
+            <address>8</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Grid1.L1</name>
+            <address>36</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb.Cf_Va</name>
+            <address>2</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Ic.Lf_Ia</name>
+            <address>35</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia1.Lf_Ia</name>
+            <address>40</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib.Lf_Ia</name>
+            <address>53</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.L2</name>
+            <address>58</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Tr1.Tr2.L2</name>
+            <address>49</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia.Lf_Ia</name>
+            <address>21</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Tr1.Tr2.L2</name>
+            <address>31</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic1.Lf_Ia</name>
+            <address>44</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Tr1.Tr1.L2</name>
+            <address>60</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Tr1.Tr2.L2</name>
+            <address>61</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib1.Lf_Ia</name>
+            <address>24</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic.Lf_Ia</name>
+            <address>25</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.L1</name>
+            <address>45</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb1.Cf_Va</name>
+            <address>12</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia.Lf_Ia</name>
+            <address>39</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb.Cf_Va</name>
+            <address>11</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Tr1.Tr1.L2</name>
+            <address>48</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc.Cf_Va</name>
+            <address>19</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb1.Cf_Va</name>
+            <address>18</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc1.Cf_Va</name>
+            <address>20</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Va.Cf_Va</name>
+            <address>6</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Tr1.Tr1.L2</name>
+            <address>30</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic.Lf_Ia</name>
+            <address>55</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia1.Lf_Ia</name>
+            <address>22</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc.Cf_Va</name>
+            <address>13</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Tr1.Tr3.L2</name>
+            <address>50</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic1.Lf_Ia</name>
+            <address>56</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Ia.Lf_Ia</name>
+            <address>33</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib.Lf_Ia</name>
+            <address>41</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc1.Cf_Va</name>
+            <address>14</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vb.Cf_Va</name>
+            <address>7</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb.Cf_Va</name>
+            <address>17</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va.Cf_Va</name>
+            <address>0</address>
+            <type>voltage</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.L2</name>
+            <address>28</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.L1</name>
+            <address>57</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.L2</name>
+            <address>46</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.L3</name>
+            <address>29</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib1.Lf_Ia</name>
+            <address>42</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Tr1.Tr3.L2</name>
+            <address>32</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Ib.Lf_Ia</name>
+            <address>34</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia.Lf_Ia</name>
+            <address>51</address>
+            <type>current</type>
+            <initial_condition>0.0</initial_condition>
+            <visible>False</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc1</name>
+            <address>104</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc</name>
+            <address>72</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Vc</name>
+            <address>80</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb1.full_bandwidth</name>
+            <address>99</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Vb1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb1_full_bandwidth</name>
+            <address>99</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib</name>
+            <address>140</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Va.full_bandwidth</name>
+            <address>75</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Va_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Va_full_bandwidth</name>
+            <address>75</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc1.full_bandwidth</name>
+            <address>73</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Vc1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc1_full_bandwidth</name>
+            <address>73</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic1</name>
+            <address>146</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia.full_bandwidth</name>
+            <address>105</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ia_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia_full_bandwidth</name>
+            <address>105</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib1</name>
+            <address>130</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia</name>
+            <address>136</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib1</name>
+            <address>112</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia1.full_bandwidth</name>
+            <address>137</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ia1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia1_full_bandwidth</name>
+            <address>137</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Ib</name>
+            <address>120</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va1</name>
+            <address>84</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va1</name>
+            <address>66</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic</name>
+            <address>114</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc1</name>
+            <address>92</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic1.full_bandwidth</name>
+            <address>115</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ic1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic1_full_bandwidth</name>
+            <address>115</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc1.full_bandwidth</name>
+            <address>91</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Vc1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc1_full_bandwidth</name>
+            <address>91</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic.full_bandwidth</name>
+            <address>143</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ic_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic_full_bandwidth</name>
+            <address>143</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic1</name>
+            <address>134</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ia.full_bandwidth</name>
+            <address>117</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Ia_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ia_full_bandwidth</name>
+            <address>117</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc.full_bandwidth</name>
+            <address>71</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Vc_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc_full_bandwidth</name>
+            <address>71</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va.full_bandwidth</name>
+            <address>93</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Va_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va_full_bandwidth</name>
+            <address>93</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia1</name>
+            <address>108</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Va</name>
+            <address>76</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb1</name>
+            <address>100</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib1.full_bandwidth</name>
+            <address>111</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ib1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib1_full_bandwidth</name>
+            <address>111</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia1.full_bandwidth</name>
+            <address>125</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ia1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia1_full_bandwidth</name>
+            <address>125</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic</name>
+            <address>132</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc</name>
+            <address>102</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia1.full_bandwidth</name>
+            <address>107</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ia1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia1_full_bandwidth</name>
+            <address>107</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb1.full_bandwidth</name>
+            <address>87</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Vb1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb1_full_bandwidth</name>
+            <address>87</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc</name>
+            <address>90</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc1.full_bandwidth</name>
+            <address>103</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Vc1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc1_full_bandwidth</name>
+            <address>103</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib.full_bandwidth</name>
+            <address>127</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ib_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib_full_bandwidth</name>
+            <address>127</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic.full_bandwidth</name>
+            <address>113</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ic_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic_full_bandwidth</name>
+            <address>113</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vc.full_bandwidth</name>
+            <address>79</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Vc_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Vc_full_bandwidth</name>
+            <address>79</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic1.full_bandwidth</name>
+            <address>145</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ic1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic1_full_bandwidth</name>
+            <address>145</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib1.full_bandwidth</name>
+            <address>141</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ib1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib1_full_bandwidth</name>
+            <address>141</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic1.full_bandwidth</name>
+            <address>133</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ic1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic1_full_bandwidth</name>
+            <address>133</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va</name>
+            <address>94</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia.full_bandwidth</name>
+            <address>123</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ia_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia_full_bandwidth</name>
+            <address>123</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb</name>
+            <address>68</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia</name>
+            <address>124</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va</name>
+            <address>64</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb1</name>
+            <address>88</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia1</name>
+            <address>138</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ic.full_bandwidth</name>
+            <address>121</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Ic_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ic_full_bandwidth</name>
+            <address>121</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib1.full_bandwidth</name>
+            <address>129</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ib1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib1_full_bandwidth</name>
+            <address>129</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb.full_bandwidth</name>
+            <address>85</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Vb_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb_full_bandwidth</name>
+            <address>85</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb.full_bandwidth</name>
+            <address>97</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Vb_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb_full_bandwidth</name>
+            <address>97</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vb</name>
+            <address>78</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib.full_bandwidth</name>
+            <address>109</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Ib_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib_full_bandwidth</name>
+            <address>109</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vb</name>
+            <address>98</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ia</name>
+            <address>106</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va1</name>
+            <address>96</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb1</name>
+            <address>70</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ia</name>
+            <address>118</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va1.full_bandwidth</name>
+            <address>95</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Va1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Va1_full_bandwidth</name>
+            <address>95</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va.full_bandwidth</name>
+            <address>63</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Va_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va_full_bandwidth</name>
+            <address>63</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va.full_bandwidth</name>
+            <address>81</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Va_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va_full_bandwidth</name>
+            <address>81</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va1.full_bandwidth</name>
+            <address>83</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Va1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va1_full_bandwidth</name>
+            <address>83</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc.full_bandwidth</name>
+            <address>89</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Vc_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vc_full_bandwidth</name>
+            <address>89</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ib</name>
+            <address>110</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia.full_bandwidth</name>
+            <address>135</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ia_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ia_full_bandwidth</name>
+            <address>135</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vc1</name>
+            <address>74</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ia1</name>
+            <address>126</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic.full_bandwidth</name>
+            <address>131</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>PV Power Plant (Generic)1.Grid Converter1.Ic_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ic_full_bandwidth</name>
+            <address>131</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Ib</name>
+            <address>128</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib.full_bandwidth</name>
+            <address>139</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Ib_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib_full_bandwidth</name>
+            <address>139</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va1.full_bandwidth</name>
+            <address>65</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Va1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Va1_full_bandwidth</name>
+            <address>65</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Ib.full_bandwidth</name>
+            <address>119</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Ib_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ib_full_bandwidth</name>
+            <address>119</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb.full_bandwidth</name>
+            <address>67</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Vb_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb_full_bandwidth</name>
+            <address>67</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc.full_bandwidth</name>
+            <address>101</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Variable Load (Generic)1.Grid Converter1.Vc_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Vc_full_bandwidth</name>
+            <address>101</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Ic1</name>
+            <address>116</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ib1</name>
+            <address>142</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Vb.full_bandwidth</name>
+            <address>77</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Grid1.Vb_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Vb_full_bandwidth</name>
+            <address>77</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Va</name>
+            <address>82</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Ic</name>
+            <address>144</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Ic</name>
+            <address>122</address>
+            <type>current</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb1.full_bandwidth</name>
+            <address>69</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+                <previous_name>Battery ESS (Generic)1.Grid Converter1.Vb1_full_bandwidth</previous_name>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Vb1_full_bandwidth</name>
+            <address>69</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Vb</name>
+            <address>86</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+            <previous_names>
+            </previous_names>
+        </cell>
+        <cell>
+            <name>Grid1.Vsp_sin1.Vs1</name>
+            <address>33280</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vsp_sin2.Vs1</name>
+            <address>33281</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid1.Vsp_sin3.Vs1</name>
+            <address>33282</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>const_0V</name>
+            <address>34304</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 1</name>
+            <address>34816</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 2</name>
+            <address>34817</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 3</name>
+            <address>34818</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 4</name>
+            <address>34819</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 5</name>
+            <address>34820</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 6</name>
+            <address>34821</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 7</name>
+            <address>34822</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 8</name>
+            <address>34823</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 9</name>
+            <address>34824</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 10</name>
+            <address>34825</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 11</name>
+            <address>34826</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 12</name>
+            <address>34827</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 13</name>
+            <address>34828</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 14</name>
+            <address>34829</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 15</name>
+            <address>34830</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 16</name>
+            <address>34831</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 17</name>
+            <address>34832</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 18</name>
+            <address>34833</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 19</name>
+            <address>34834</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 20</name>
+            <address>34835</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 21</name>
+            <address>34836</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 22</name>
+            <address>34837</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 23</name>
+            <address>34838</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 24</name>
+            <address>34839</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 25</name>
+            <address>34840</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 26</name>
+            <address>34841</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 27</name>
+            <address>34842</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 28</name>
+            <address>34843</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 29</name>
+            <address>34844</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 30</name>
+            <address>34845</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 31</name>
+            <address>34846</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>HIL0 analog input 32</name>
+            <address>34847</address>
+            <type>voltage</type>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+    </analog_variables>
+    <digital_variables>
+        <cell>
+            <name>const_0</name>
+            <address>1</address>
+            </cell>
+        <cell>
+            <name>HIL0 AO flag</name>
+            <address>8</address>
+            </cell>
+        <cell>
+            <name>HIL0 DTV flag</name>
+            <address>9</address>
+            </cell>
+        <cell>
+            <name>HIL0 Capture or Scope Trigger</name>
+            <address>16</address>
+                <previous_names>
+                        <previous_name>HIL0 Capture/Scope Trigger</previous_name>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>HIL0 Capture/Scope Trigger</name>
+            <address>16</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 1</name>
+            <address>128</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 2</name>
+            <address>129</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 3</name>
+            <address>130</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 4</name>
+            <address>131</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 5</name>
+            <address>132</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 6</name>
+            <address>133</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 7</name>
+            <address>134</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 8</name>
+            <address>135</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 9</name>
+            <address>136</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 10</name>
+            <address>137</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 11</name>
+            <address>138</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 12</name>
+            <address>139</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 13</name>
+            <address>140</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 14</name>
+            <address>141</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 15</name>
+            <address>142</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 16</name>
+            <address>143</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 17</name>
+            <address>144</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 18</name>
+            <address>145</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 19</name>
+            <address>146</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 20</name>
+            <address>147</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 21</name>
+            <address>148</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 22</name>
+            <address>149</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 23</name>
+            <address>150</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 24</name>
+            <address>151</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 25</name>
+            <address>152</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 26</name>
+            <address>153</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 27</name>
+            <address>154</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 28</name>
+            <address>155</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 29</name>
+            <address>156</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 30</name>
+            <address>157</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 31</name>
+            <address>158</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 32</name>
+            <address>159</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 33</name>
+            <address>160</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 34</name>
+            <address>161</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 35</name>
+            <address>162</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 36</name>
+            <address>163</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 37</name>
+            <address>164</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 38</name>
+            <address>165</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 39</name>
+            <address>166</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 40</name>
+            <address>167</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 41</name>
+            <address>168</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 42</name>
+            <address>169</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 43</name>
+            <address>170</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 44</name>
+            <address>171</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 45</name>
+            <address>172</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 46</name>
+            <address>173</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 47</name>
+            <address>174</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 48</name>
+            <address>175</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 49</name>
+            <address>176</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 50</name>
+            <address>177</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 51</name>
+            <address>178</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 52</name>
+            <address>179</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 53</name>
+            <address>180</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 54</name>
+            <address>181</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 55</name>
+            <address>182</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 56</name>
+            <address>183</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 57</name>
+            <address>184</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 58</name>
+            <address>185</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 59</name>
+            <address>186</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 60</name>
+            <address>187</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 61</name>
+            <address>188</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 62</name>
+            <address>189</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 63</name>
+            <address>190</address>
+            </cell>
+        <cell>
+            <name>HIL0 digital input 64</name>
+            <address>191</address>
+            </cell>
+        <cell>
+            <name>Grid1.Contactor.S1.Sa</name>
+            <address>128</address>
+                <previous_names>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Contactor.S1.Sa</name>
+            <address>128</address>
+                <previous_names>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Contactor.S1.Sa</name>
+            <address>128</address>
+                <previous_names>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Contactor.S1.Sa</name>
+            <address>128</address>
+                <previous_names>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Contactor.S1.feedback</name>
+            <address>1024</address>
+                <previous_names>
+                        <previous_name>Battery ESS (Generic)1.Grid Converter1.Contactor.S1_fb</previous_name>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Battery ESS (Generic)1.Grid Converter1.Contactor.S1_fb</name>
+            <address>1024</address>
+            </cell>
+        <cell>
+            <name>Grid1.Contactor.S1.feedback</name>
+            <address>1025</address>
+                <previous_names>
+                        <previous_name>Grid1.Contactor.S1_fb</previous_name>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Grid1.Contactor.S1_fb</name>
+            <address>1025</address>
+            </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Contactor.S1.feedback</name>
+            <address>1026</address>
+                <previous_names>
+                        <previous_name>PV Power Plant (Generic)1.Grid Converter1.Contactor.S1_fb</previous_name>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>PV Power Plant (Generic)1.Grid Converter1.Contactor.S1_fb</name>
+            <address>1026</address>
+            </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Contactor.S1.feedback</name>
+            <address>1027</address>
+                <previous_names>
+                        <previous_name>Variable Load (Generic)1.Grid Converter1.Contactor.S1_fb</previous_name>
+                    </previous_names>
+            </cell>
+        <cell>
+            <name>Variable Load (Generic)1.Grid Converter1.Contactor.S1_fb</name>
+            <address>1027</address>
+            </cell>
+    </digital_variables>
+    <sources>
+        <cell>
+            <name>Grid1.Vsp_sin1</name>
+            <type>1phase_sp_ctrl</type>
+            <address>[0]</address>
+            <unit>V</unit>
+            <init_settings>['Sine', 1.0, 50.0, 0.0]</init_settings>
+        </cell>
+        <cell>
+            <name>Grid1.Vsp_sin2</name>
+            <type>1phase_sp_ctrl</type>
+            <address>[1]</address>
+            <unit>V</unit>
+            <init_settings>['Sine', 1.0, 50.0, 0.0]</init_settings>
+        </cell>
+        <cell>
+            <name>Grid1.Vsp_sin3</name>
+            <type>1phase_sp_ctrl</type>
+            <address>[2]</address>
+            <unit>V</unit>
+            <init_settings>['Sine', 1.0, 50.0, 0.0]</init_settings>
+        </cell>
+    </sources>
+    <machines>
+    </machines>
+    <pv_panels>
+    </pv_panels>
+    <batteries>
+    </batteries>
+    <contactors>
+    <cell>
+        <name>Battery ESS (Generic)1.Grid Converter1.Contactor.S1</name>
+        <type>ideal_contactor</type>
+        <weight>[0]</weight>
+        <site>[0]</site>
+        <scm_comp_type>three_phase_breaker</scm_comp_type>
+   </cell>
+    <cell>
+        <name>Grid1.Contactor.S1</name>
+        <type>ideal_contactor</type>
+        <weight>[1]</weight>
+        <site>[0]</site>
+        <scm_comp_type>three_phase_breaker</scm_comp_type>
+   </cell>
+    <cell>
+        <name>PV Power Plant (Generic)1.Grid Converter1.Contactor.S1</name>
+        <type>ideal_contactor</type>
+        <weight>[2]</weight>
+        <site>[0]</site>
+        <scm_comp_type>three_phase_breaker</scm_comp_type>
+   </cell>
+    <cell>
+        <name>Variable Load (Generic)1.Grid Converter1.Contactor.S1</name>
+        <type>ideal_contactor</type>
+        <weight>[3]</weight>
+        <site>[0]</site>
+        <scm_comp_type>three_phase_breaker</scm_comp_type>
+   </cell>
+    </contactors>
+    <dtsms>
+        </dtsms>
+    <analog_output_settings>
+    </analog_output_settings>
+    <digital_output_settings>
+    </digital_output_settings>
+    <dtv>
+        <spc_dtv>
+        </spc_dtv>
+        <par_dtv>
+        </par_dtv>
+    </dtv>
+
+<!-- ******* SP DATA ******** -->
+
+    <model_properties>
+        <execution_rates>[[[0.0001, 0.0005], [], []]]</execution_rates>
+        <sys_real_type_precision>float</sys_real_type_precision>
+        <user_real_type_precision>double</user_real_type_precision>
+        <sig_stim>off</sig_stim>
+        <update_device_time>True</update_device_time>
+    </model_properties>
+
+    <analog_variables>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qb_meas_kVAr</name>
+            <type>generic</type>
+            <address>16437</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Qmeas_kVAr</name>
+            <type>generic</type>
+            <address>16421</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qa_meas_kVAr</name>
+            <type>generic</type>
+            <address>16400</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Vload_rms_meas_V</name>
+            <type>generic</type>
+            <address>16462</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qref_fb_kVAr</name>
+            <type>generic</type>
+            <address>16441</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Smeas_kVA</name>
+            <type>generic</type>
+            <address>16408</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.alarm_msg</name>
+            <type>generic</type>
+            <address>16446</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Pmeas_kW</name>
+            <type>generic</type>
+            <address>16420</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Ibatt_A</name>
+            <type>generic</type>
+            <address>16390</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Vgrid_rms_meas_kV</name>
+            <type>generic</type>
+            <address>16461</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Smeas_kVA</name>
+            <type>generic</type>
+            <address>16442</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Converter_mode_fb</name>
+            <type>generic</type>
+            <address>16385</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.LVRT_active_status</name>
+            <type>generic</type>
+            <address>16427</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pc_meas_kW</name>
+            <type>generic</type>
+            <address>16396</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qnom_kVAr</name>
+            <type>generic</type>
+            <address>16440</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Smeas_kVA</name>
+            <type>generic</type>
+            <address>16422</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Snom_kVA</name>
+            <type>generic</type>
+            <address>16460</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.MCB_status</name>
+            <type>generic</type>
+            <address>16392</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pc_meas_kW</name>
+            <type>generic</type>
+            <address>16432</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qmeas_kVAr</name>
+            <type>generic</type>
+            <address>16403</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pa_meas_kW</name>
+            <type>generic</type>
+            <address>16430</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Vrms_ref_fb_V</name>
+            <type>generic</type>
+            <address>16414</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.PFmeas</name>
+            <type>generic</type>
+            <address>16393</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.PFmeas</name>
+            <type>generic</type>
+            <address>16452</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.MCB_status</name>
+            <type>generic</type>
+            <address>16428</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Pref_fb_kW</name>
+            <type>generic</type>
+            <address>16455</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.state</name>
+            <type>generic</type>
+            <address>16448</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.state</name>
+            <type>generic</type>
+            <address>16416</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Fnom_Hz</name>
+            <type>generic</type>
+            <address>16388</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pnom_kW</name>
+            <type>generic</type>
+            <address>16434</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.curtailment_status</name>
+            <type>generic</type>
+            <address>16447</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Vconv_rms_meas_V</name>
+            <type>generic</type>
+            <address>16444</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Snom_kVA</name>
+            <type>generic</type>
+            <address>16443</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Batt_cap_nom_Ah</name>
+            <type>generic</type>
+            <address>16384</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Available_Ppv_kW</name>
+            <type>generic</type>
+            <address>16424</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Fmeas_Hz</name>
+            <type>generic</type>
+            <address>16387</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.MCB_status</name>
+            <type>generic</type>
+            <address>16451</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Fmeas_Hz</name>
+            <type>generic</type>
+            <address>16426</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Vrms_meas_kV</name>
+            <type>generic</type>
+            <address>16423</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pref_fb_kW</name>
+            <type>generic</type>
+            <address>16435</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Pmeas_kW</name>
+            <type>generic</type>
+            <address>16453</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.alarm_msg</name>
+            <type>generic</type>
+            <address>16463</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pb_meas_kW</name>
+            <type>generic</type>
+            <address>16395</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Enable_fb</name>
+            <type>generic</type>
+            <address>16425</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Enable_fb</name>
+            <type>generic</type>
+            <address>16386</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qb_meas_kVAr</name>
+            <type>generic</type>
+            <address>16401</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qc_meas_kVAr</name>
+            <type>generic</type>
+            <address>16402</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pmeas_kW</name>
+            <type>generic</type>
+            <address>16433</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.LVRT_active_status</name>
+            <type>generic</type>
+            <address>16391</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Vconv_rms_meas_V</name>
+            <type>generic</type>
+            <address>16411</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Qnom_kVAr</name>
+            <type>generic</type>
+            <address>16457</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qa_meas_kVAr</name>
+            <type>generic</type>
+            <address>16436</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Vbatt_V</name>
+            <type>generic</type>
+            <address>16410</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Qref_fb_kVAr</name>
+            <type>generic</type>
+            <address>16458</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qmeas_kVAr</name>
+            <type>generic</type>
+            <address>16439</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Vgrid_rms_meas_kV</name>
+            <type>generic</type>
+            <address>16445</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Vnom_LL_V</name>
+            <type>generic</type>
+            <address>16413</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Connect_fb</name>
+            <type>generic</type>
+            <address>16417</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.alarm_msg</name>
+            <type>generic</type>
+            <address>16415</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.Fmeas_Hz</name>
+            <type>generic</type>
+            <address>16418</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.SOC</name>
+            <type>generic</type>
+            <address>16406</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pa_meas_kW</name>
+            <type>generic</type>
+            <address>16394</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Snom_kVA</name>
+            <type>generic</type>
+            <address>16409</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Grid UI1.PFmeas</name>
+            <type>generic</type>
+            <address>16419</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Pnom_kW</name>
+            <type>generic</type>
+            <address>16454</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qref_fb_kVAr</name>
+            <type>generic</type>
+            <address>16405</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Enable_fb</name>
+            <type>generic</type>
+            <address>16449</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pmeas_kW</name>
+            <type>generic</type>
+            <address>16397</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.SOH</name>
+            <type>generic</type>
+            <address>16407</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Qnom_kVAr</name>
+            <type>generic</type>
+            <address>16404</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pref_fb_kW</name>
+            <type>generic</type>
+            <address>16399</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Vgrid_rms_meas_kV</name>
+            <type>generic</type>
+            <address>16412</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.PFmeas</name>
+            <type>generic</type>
+            <address>16429</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Qc_meas_kVAr</name>
+            <type>generic</type>
+            <address>16438</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>PV Power Plant (Generic) UI1.Pb_meas_kW</name>
+            <type>generic</type>
+            <address>16431</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Smeas_kVA</name>
+            <type>generic</type>
+            <address>16459</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Fref_fb_Hz</name>
+            <type>generic</type>
+            <address>16389</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Qmeas_kVAr</name>
+            <type>generic</type>
+            <address>16456</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Variable Load (Generic) UI1.Fmeas_Hz</name>
+            <type>generic</type>
+            <address>16450</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+        <cell>
+            <name>Battery ESS (Generic) UI1.Pnom_kW</name>
+            <type>generic</type>
+            <address>16398</address>
+            <initial_condition>None</initial_condition>
+            <visible>True</visible>
+        </cell>
+    </analog_variables>
+
+<digital_variables>
+    </digital_variables>
+
+    <tunable_params>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Converter mode</name>
+            <addr>[1426063616]</addr>
+            <min>0.0</min>
+            <max>2.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Enable</name>
+            <addr>[1426063620]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.F alarm lower limit</name>
+            <addr>[1426063624]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.F alarm upper limit</name>
+            <addr>[1426063628]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Fref</name>
+            <addr>[1426063632]</addr>
+            <min>0.0</min>
+            <max>100000000.0</max>
+            <def_value>1.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Fref rate of change</name>
+            <addr>[1426063636]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.02</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Frequency droop coeff</name>
+            <addr>[1426063640]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>2.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Frequency droop offset</name>
+            <addr>[1426063644]</addr>
+            <min>-1000000.0</min>
+            <max>1000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.HzWatt enable</name>
+            <addr>[1426063648]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.I alarm upper limit</name>
+            <addr>[1426063652]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Initial SOC</name>
+            <addr>[1426063656]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>50.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Initial SOH</name>
+            <addr>[1426063660]</addr>
+            <min>0.1</min>
+            <max>100.0</max>
+            <def_value>90.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.LVRT P set</name>
+            <addr>[1426063664]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.LVRT Q contribution</name>
+            <addr>[1426063668]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>2.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.LVRT enable</name>
+            <addr>[1426063672]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Max SOC</name>
+            <addr>[1426063676]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>90.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Min SOC</name>
+            <addr>[1426063680]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>10.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Pref</name>
+            <addr>[1426063684]</addr>
+            <min>-100000000.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Pref rate of change</name>
+            <addr>[1426063688]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Qref</name>
+            <addr>[1426063692]</addr>
+            <min>-100000000.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Qref rate of change</name>
+            <addr>[1426063696]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Reset alarms</name>
+            <addr>[1426063700]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.S alarm upper limit</name>
+            <addr>[1426063704]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.V alarm lower limit</name>
+            <addr>[1426063708]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.V alarm upper limit</name>
+            <addr>[1426063712]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.VoltVAr enable</name>
+            <addr>[1426063716]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.VoltWatt enable</name>
+            <addr>[1426063720]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Voltage droop coeff</name>
+            <addr>[1426063724]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>4.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Voltage droop offset</name>
+            <addr>[1426063728]</addr>
+            <min>-1000000.0</min>
+            <max>1000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Vrms_ref</name>
+            <addr>[1426063732]</addr>
+            <min>0.0</min>
+            <max>100000000.0</max>
+            <def_value>1.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Battery ESS (Generic) UI1.Vrms_ref rate of change</name>
+            <addr>[1426063736]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Grid UI1.Connect</name>
+            <addr>[1426063740]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0001</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Grid UI1.Grid_Vrms_cmd</name>
+            <addr>[1426063744]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>1.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0001</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Grid UI1.Grid_freq_cmd</name>
+            <addr>[1426063748]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>1.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0001</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Enable</name>
+            <addr>[1426063752]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.F alarm lower limit</name>
+            <addr>[1426063756]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.F alarm upper limit</name>
+            <addr>[1426063760]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.HzWatt enable</name>
+            <addr>[1426063764]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.I alarm upper limit</name>
+            <addr>[1426063768]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Irradiance</name>
+            <addr>[1426063772]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>1000.0</def_value>
+            <unit>W/m2</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.LVRT P set</name>
+            <addr>[1426063776]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.LVRT Q contribution</name>
+            <addr>[1426063780]</addr>
+            <min>0.0</min>
+            <max>100.0</max>
+            <def_value>2.0</def_value>
+            <unit>%</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.LVRT enable</name>
+            <addr>[1426063784]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.MPPT rate of change</name>
+            <addr>[1426063788]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Pcurtailment</name>
+            <addr>[1426063792]</addr>
+            <min>-100000000.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Pcurtailment rate of change</name>
+            <addr>[1426063796]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Qref</name>
+            <addr>[1426063800]</addr>
+            <min>-100000000.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Qref rate of change</name>
+            <addr>[1426063804]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Reset alarms</name>
+            <addr>[1426063808]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.S alarm upper limit</name>
+            <addr>[1426063812]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.Temperature</name>
+            <addr>[1426063816]</addr>
+            <min>-1000000.0</min>
+            <max>1000000.0</max>
+            <def_value>25.0</def_value>
+            <unit>°C</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.V alarm lower limit</name>
+            <addr>[1426063820]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.V alarm upper limit</name>
+            <addr>[1426063824]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.VoltVAr enable</name>
+            <addr>[1426063828]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>PV Power Plant (Generic) UI1.VoltWatt enable</name>
+            <addr>[1426063832]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Enable</name>
+            <addr>[1426063836]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.F alarm lower limit</name>
+            <addr>[1426063840]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.F alarm upper limit</name>
+            <addr>[1426063844]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.I alarm upper limit</name>
+            <addr>[1426063848]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.P dependency type</name>
+            <addr>[1426063852]</addr>
+            <min>0.0</min>
+            <max>2.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.P(V) k1</name>
+            <addr>[1426063856]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.P(V) k2</name>
+            <addr>[1426063860]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit>1/pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.P(f) k1</name>
+            <addr>[1426063864]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.P(f) k2</name>
+            <addr>[1426063868]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit>1/pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Pref</name>
+            <addr>[1426063872]</addr>
+            <min>0.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Pref rate of change</name>
+            <addr>[1426063876]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Q dependency type</name>
+            <addr>[1426063880]</addr>
+            <min>0.0</min>
+            <max>2.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Q(V) k1</name>
+            <addr>[1426063884]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Q(V) k2</name>
+            <addr>[1426063888]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit>1/pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Q(f) k1</name>
+            <addr>[1426063892]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Q(f) k2</name>
+            <addr>[1426063896]</addr>
+            <min>-100.0</min>
+            <max>100.0</max>
+            <def_value>0.0</def_value>
+            <unit>1/pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Qref</name>
+            <addr>[1426063900]</addr>
+            <min>-100000000.0</min>
+            <max>100000000.0</max>
+            <def_value>0.0</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Qref rate of change</name>
+            <addr>[1426063904]</addr>
+            <min>0.0</min>
+            <max>1000000.0</max>
+            <def_value>0.1</def_value>
+            <unit>pu/s</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.Reset alarms</name>
+            <addr>[1426063908]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.0</def_value>
+            <unit></unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.S alarm upper limit</name>
+            <addr>[1426063912]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.V alarm lower limit</name>
+            <addr>[1426063916]</addr>
+            <min>0.0</min>
+            <max>1.0</max>
+            <def_value>0.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+        <tunable_param>
+            <name>Variable Load (Generic) UI1.V alarm upper limit</name>
+            <addr>[1426063920]</addr>
+            <min>1.0</min>
+            <max>1000000.0</max>
+            <def_value>1.5</def_value>
+            <unit>pu</unit>
+            <widget_type>float</widget_type>
+            <format>real</format>
+            <size>1</size>
+            <param_type>scada input</param_type>
+            <cpu_type>user_sp_cpu</cpu_type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rate>0.0005</execution_rate>
+            <visible>True</visible>
+        </tunable_param>
+    </tunable_params>
+
+
+    <dsp_monitors>
+        <monitor>
+            <type>user</type>
+            <cpu_idx>0</cpu_idx>
+            <execution_rates>[0.0001, 0.0005]</execution_rates>
+            <execution_rate_labels>['ER0 (0.0001)', 'ER1 (0.0005)']</execution_rate_labels>
+            <timer_counters>[15999, 79999]</timer_counters>
+
+            
+        </monitor>
+    </dsp_monitors>
+
+    <sp_compiler_type>gcc</sp_compiler_type>
+
+    <streaming>
+
+        <streaming_analog_signals>
+            <analog_signal>
+                <signal_name>Grid UI1.Qmeas_kVAr</signal_name>
+                <ex_rate>0.0001</ex_rate>
+                <data_index>2</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Grid UI1.Pmeas_kW</signal_name>
+                <ex_rate>0.0001</ex_rate>
+                <data_index>1</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Grid UI1.Fmeas_Hz</signal_name>
+                <ex_rate>0.0001</ex_rate>
+                <data_index>0</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>PV Power Plant (Generic) UI1.Pmeas_kW</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>4</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Battery ESS (Generic) UI1.Pmeas_kW</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>7</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Variable Load (Generic) UI1.Pmeas_kW</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>1</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Variable Load (Generic) UI1.Qmeas_kVAr</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>2</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>PV Power Plant (Generic) UI1.Qmeas_kVAr</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>5</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Battery ESS (Generic) UI1.Fmeas_Hz</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>6</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>PV Power Plant (Generic) UI1.Fmeas_Hz</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>3</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Variable Load (Generic) UI1.Fmeas_Hz</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>0</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+            <analog_signal>
+                <signal_name>Battery ESS (Generic) UI1.Qmeas_kVAr</signal_name>
+                <ex_rate>0.0005</ex_rate>
+                <data_index>8</data_index>
+                <cpu>['user_sp_cpu', 0]</cpu>
+            </analog_signal>
+        </streaming_analog_signals>
+
+
+     </streaming>
+
+
+</model_description>

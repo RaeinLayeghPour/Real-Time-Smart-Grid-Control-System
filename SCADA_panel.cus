@@ -1,0 +1,472 @@
+<ui_settings>
+    <version>2.8</version>
+    <model_locked>False</model_locked>
+    <canvas_bg_color>#ffffff</canvas_bg_color>
+    <initialization_code><![CDATA[# NOTE: Variables and functions defined here will be
+# available for use in all Macro and Expression scripts.
+# NOTE: This code is always executed prior simulation start.
+
+# Variable 'SETTINGS_DIR' holds directory where loaded Panel .cus file is located.
+# Also you can call 'get_settings_dir_path()' function in any
+# Macro and Expression scripts to get the same directory.
+SETTINGS_DIR = get_settings_dir_path()
+
+# The 'add_to_python_path(folder)' function can be used to add custom folder
+# with Python files and packages to the PYTHONPATH. After folder is added, all Python 
+# files and Python packages from it can be imported into the SCADA Namespace.
+
+# HIL API is imported as 'hil'
+# SCADA API is imported as 'panel'
+# SCADA API constants are imported as 'api_const'
+# Numpy module is imported as 'np'
+# Scipy module is imported as 'sp'
+# Schematic Editor model namespace is imported as 'scm'
+# Function for printing to HIL SCADA Message log is imported as 'printf'.
+
+]]></initialization_code>
+    <components>
+        <component_data>
+                <id>4fd79cb4f12511ebaad61c1bb5b93d80</id>
+                <type>Group</type>
+                <name><![CDATA[Grid Interface]]></name>
+                <description><![CDATA[]]></description>
+                <collapsed>False</collapsed>
+                <library_settings>
+                    <library_name><![CDATA[Generic DER Widgets]]></library_name>
+                    <library_widget_name><![CDATA[Grid Interface]]></library_widget_name>
+                    <linked_model_components>
+                        <model_component>
+                            <name><![CDATA[Grid UI1]]></name>
+                            <fqn><![CDATA[Grid UI1]]></fqn>
+                            <type><![CDATA[Grid UI]]></type>
+                        </model_component>
+                        </linked_model_components>
+                </library_settings>
+                <widget_settings>
+                    <x>304</x>
+                    <y>0</y>
+                    <width>568</width>
+                    <height>320</height>
+                    <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[]]></label>
+                    <use_label>False</use_label>
+                </widget_settings>
+                <child_components_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid connect]]></relative_fqn>
+                        <value><![CDATA[True]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid voltage command [pu]]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid frequency command [pu]]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                </child_components_data>
+            </component_data>
+        <component_data>
+                <id>5404ea02f12511ebba4a1c1bb5b93d80</id>
+                <type>SubPanel</type>
+                <name><![CDATA[Load Interface]]></name>
+                <description><![CDATA[]]></description>
+                <working_mode>Embedded</working_mode>
+                <canvas_window_visible>False</canvas_window_visible>
+                <canvas_window_geometry><![CDATA[None]]></canvas_window_geometry>
+                <canvas_window_state><![CDATA[None]]></canvas_window_state>
+                <canvas_window_in_fullscreen>False</canvas_window_in_fullscreen>
+                
+                <library_settings>
+                    <library_name><![CDATA[Generic DER Widgets]]></library_name>
+                    <library_widget_name><![CDATA[Load Interface]]></library_widget_name>
+                    <linked_model_components>
+                        <model_component>
+                            <name><![CDATA[Variable Load (Generic) UI1]]></name>
+                            <fqn><![CDATA[Variable Load (Generic) UI1]]></fqn>
+                            <type><![CDATA[Variable Load (Generic) UI]]></type>
+                        </model_component>
+                        </linked_model_components>
+                </library_settings>
+                <widget_settings>
+                    <x>472</x>
+                    <y>432</y>
+                    <width>200</width>
+                    <height>152</height>
+                    <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Arial'; font-size:8pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12pt;">Load Interface</span></p></body></html>]]></label>
+                    <use_label>True</use_label>
+                </widget_settings>
+                <child_components_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Enable]]></relative_fqn>
+                        <value><![CDATA[True]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power ROC]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power ROC]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Consumptions Dependencies.P dependency type]]></relative_fqn>
+                        <value><![CDATA[None]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Consumptions Dependencies.Q dependency type]]></relative_fqn>
+                        <value><![CDATA[None]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.P(f)_k1]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.P(f)_k2]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.P(V)_k1]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.P(V)_k2]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.Q(f)_k1]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.Q(f)_k2]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.Q(V)_k1]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Taylor series coefficients.Q(V)_k2]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Apparent power alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Current alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                </child_components_data>
+            </component_data>
+        <component_data>
+                <id>5768df32f12511eb805c1c1bb5b93d80</id>
+                <type>SubPanel</type>
+                <name><![CDATA[PV Power Plant Interface]]></name>
+                <description><![CDATA[]]></description>
+                <working_mode>Embedded</working_mode>
+                <canvas_window_visible>False</canvas_window_visible>
+                <canvas_window_geometry><![CDATA[None]]></canvas_window_geometry>
+                <canvas_window_state><![CDATA[None]]></canvas_window_state>
+                <canvas_window_in_fullscreen>False</canvas_window_in_fullscreen>
+                
+                <library_settings>
+                    <library_name><![CDATA[Generic DER Widgets]]></library_name>
+                    <library_widget_name><![CDATA[PV Power Plant Interface]]></library_widget_name>
+                    <linked_model_components>
+                        <model_component>
+                            <name><![CDATA[PV Power Plant (Generic) UI1]]></name>
+                            <fqn><![CDATA[PV Power Plant (Generic) UI1]]></fqn>
+                            <type><![CDATA[PV Power Plant (Generic) UI]]></type>
+                        </model_component>
+                        </linked_model_components>
+                </library_settings>
+                <widget_settings>
+                    <x>288</x>
+                    <y>328</y>
+                    <width>184</width>
+                    <height>152</height>
+                    <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Arial'; font-size:8pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12pt;">PV Power Plant Interface</span></p></body></html>]]></label>
+                    <use_label>True</use_label>
+                </widget_settings>
+                <child_components_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Enable]]></relative_fqn>
+                        <value><![CDATA[True]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power ref]]></relative_fqn>
+                        <value><![CDATA[0.2]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power limit]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power limit ROC]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power ref ROC]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.MPPT ROC]]></relative_fqn>
+                        <value><![CDATA[0.1]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Apparent power alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Current alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[External commands.Temperature [°C]]]></relative_fqn>
+                        <value><![CDATA[17.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[External commands.Irradiance [W_m2]]]></relative_fqn>
+                        <value><![CDATA[350.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.P set]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.Q contribution]]></relative_fqn>
+                        <value><![CDATA[2.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.LVRT Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes. VoltVAr Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.HzWatt Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes. VoltWatt Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                </child_components_data>
+            </component_data>
+        <component_data>
+                <id>be23999af12511ebbd861c1bb5b93d80</id>
+                <type>SubPanel</type>
+                <name><![CDATA[Battery ESS Interface]]></name>
+                <description><![CDATA[]]></description>
+                <working_mode>Embedded</working_mode>
+                <canvas_window_visible>False</canvas_window_visible>
+                <canvas_window_geometry><![CDATA[None]]></canvas_window_geometry>
+                <canvas_window_state><![CDATA[None]]></canvas_window_state>
+                <canvas_window_in_fullscreen>False</canvas_window_in_fullscreen>
+                
+                <library_settings>
+                    <library_name><![CDATA[Generic DER Widgets]]></library_name>
+                    <library_widget_name><![CDATA[Battery ESS Interface]]></library_widget_name>
+                    <linked_model_components>
+                        <model_component>
+                            <name><![CDATA[Battery ESS (Generic) UI1]]></name>
+                            <fqn><![CDATA[Battery ESS (Generic) UI1]]></fqn>
+                            <type><![CDATA[Battery ESS (Generic) UI]]></type>
+                        </model_component>
+                        </linked_model_components>
+                </library_settings>
+                <widget_settings>
+                    <x>680</x>
+                    <y>328</y>
+                    <width>192</width>
+                    <height>152</height>
+                    <appearance><![CDATA[Flat]]></appearance>
+                    <hierarchy_position><![CDATA[1]]></hierarchy_position>
+                    <is_background><![CDATA[False]]></is_background>
+                    <label><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Arial'; font-size:8pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12pt;">Battery ESS Interface</span></p></body></html>]]></label>
+                    <use_label>True</use_label>
+                </widget_settings>
+                <child_components_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Enable]]></relative_fqn>
+                        <value><![CDATA[True]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power Ref]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power Ref]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Operation mode]]></relative_fqn>
+                        <value><![CDATA[Grid following]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Vref]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Fref]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Frequency droop offset]]></relative_fqn>
+                        <value><![CDATA[0.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Frequency droop coeff [%]]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Voltage droop coeff [%]]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Active power ref ROC]]></relative_fqn>
+                        <value><![CDATA[0.1]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Vref ROC]]></relative_fqn>
+                        <value><![CDATA[0.1]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Reactive power ref ROC]]></relative_fqn>
+                        <value><![CDATA[0.1]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Fref ROC]]></relative_fqn>
+                        <value><![CDATA[0.02]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Max SOC]]></relative_fqn>
+                        <value><![CDATA[80.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Min SOC]]></relative_fqn>
+                        <value><![CDATA[20.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Apparent power alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Current alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Voltage alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm lower limit]]></relative_fqn>
+                        <value><![CDATA[0.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Inverter control and status.Protections limits.Frequency alarm upper limit]]></relative_fqn>
+                        <value><![CDATA[1.5]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Initial SOC [%]]]></relative_fqn>
+                        <value><![CDATA[50.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Initial SOH [%]]]></relative_fqn>
+                        <value><![CDATA[90.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.P set]]></relative_fqn>
+                        <value><![CDATA[1.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.Q contribution]]></relative_fqn>
+                        <value><![CDATA[2.0]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.LVRT Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.VoltVAr Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.HzWatt Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                    <child_data>
+                        <relative_fqn><![CDATA[Grid codes.VoltWatt Enable]]></relative_fqn>
+                        <value><![CDATA[False]]></value>
+                    </child_data>
+                </child_components_data>
+            </component_data>
+        </components>
+</ui_settings>
