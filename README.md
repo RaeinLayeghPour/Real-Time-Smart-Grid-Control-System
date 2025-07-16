@@ -45,5 +45,5 @@ A real-time control framework for smart grids that integrates sensing, decision-
 
 For feedback, collaboration, or questions:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/raeinlp)
-- ✉️ Email: raeen.layegh2017@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/raeinlp)
+- Email: raeen.layegh2017@gmail.com
